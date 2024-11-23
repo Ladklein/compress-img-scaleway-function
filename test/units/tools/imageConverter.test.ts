@@ -2,6 +2,7 @@ import path from 'node:path';
 import fs from 'node:fs';
 import { ImageConverter } from '../../../src/tools/compress/imageConverter';
 import { MemoryWritable } from '../../tools/memoryWritable';
+import http from 'node:http';
 
 describe('ImageConverter class', () => {
 
